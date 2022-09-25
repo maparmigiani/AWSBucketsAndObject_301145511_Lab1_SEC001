@@ -1,0 +1,16 @@
+﻿<Window x:Class="_301145511_ParmigianiDeAlmeida__Lab01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_301145511_ParmigianiDeAlmeida__Lab01"
+        mc:Ignorable="d"
+        Title="Lab#1" Height="230" Width="600">
+    <Grid>
+        <Button x:Name="BtnCreateBucket" Background="Blue" Foreground="Yellow" FontWeight="Bold" Content="Create Bucket" HorizontalAlignment="Left" Margin="78,48,0,0" VerticalAlignment="Top" Height="44" Width="111" Click="BtnCreateBucket_Click" />
+        <Button x:Name="BtnObjLvlOpe" Background="Blue" Foreground="Yellow" FontWeight="Bold" Content="Object Level Operations" HorizontalAlignment="Center" Margin="0,48,0,0" VerticalAlignment="Top" Height="44" Width="142" Click="BtnObjLvlOpe_Click"/>
+        <Button x:Name="BtnExit" Background="Blue" Foreground="Yellow" FontWeight="Bold" Content="Exit" HorizontalAlignment="Left" Margin="403,48,0,0" VerticalAlignment="Top" Height="44" Width="112" Click="BtnExit_Click"/>
+        <Label x:Name="LblName" Content="Maiara Karla Parmigiani de Almeida @Centennial College" HorizontalAlignment="Center" Margin="0,153,0,0" VerticalAlignment="Top" FontSize="15" Width="580"/>
+
+    </Grid>
+</Window>

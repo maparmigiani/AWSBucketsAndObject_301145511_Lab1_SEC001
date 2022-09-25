@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>_301145511_ParmigianiDeAlmeida__Lab01</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.S3" Version="3.7.9.56" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.1" />
+  </ItemGroup>
+
+</Project>
